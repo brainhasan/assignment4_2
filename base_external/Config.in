@@ -1,0 +1,7 @@
+# base_external/Config.in
+config BR2_EXTERNAL_PROJECT_BASE
+    bool "Project Base external for AESD"
+    help
+      Include the project_base external.
+
+source "package/aesd-assignments/Config.in"
